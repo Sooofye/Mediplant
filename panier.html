@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+	<link rel="stylesheet" href="style2.css" />
+    <title>MEDIPLANT</title>
+  </head>
+  
+  <body>
+	<header>
+		<img src="img/logoBienvenue.png" alt="Bienvenue" />
+	</header>
+	
+    
+     <nav>
+		<ul>
+          <li class="nav1"><a href="index.html">Accueil</a></li>
+		  <li class="nav2"><a href="panier.html">Mon panier</a></li>
+		  <li class="nav3"><a href="presentation.html">Qui sommes-nous ?</a></li>
+          <li class="nav4"><a href="technique.html">Details techniques</a></li>
+		</ul>
+	 </nav>
+	
+	<section class="panier">
+		<h2>Mon panier</h2>
+		<p><strong>Produit:</strong> Huile essentielle Cold Breath</p>
+		<form method="post" action="merci.html">
+			<p>
+				<strong>Choisir votre format :</strong><br />
+					<img src="img/bouteille.png" alt="format de bouteille en 100ml" id="petiteBouteille"/>
+					<input type="radio" name="qte" value="100" id="100" /> <label for="100"></label>
+					<img src="img/bouteille2.png" alt="format de bouteille en 200ml"/>
+					<input type="radio" name="qte" value="200" id="200" /> <label for="200"></label><br />
+				<label for="nbreBouteille"><strong>Combien de bouteilles souhaitez_vous ?</strong><br /></label>
+					<input type="number" name="nbreBouteille" id="nbreBouteille" /><br />
+				<label for="adresse"><strong>Adresse de livraison</strong><br /></label>
+					<textarea name="adresse" id="adresse" rows="10" cols="50"></textarea><br />
+				<input type="submit" value="Confirmer votre achat"><br />
+			</p>
+		</form>
+		<form method="post" action="index.html">
+			<p>
+				<label><strong>Souhaitez vous supprimer ce produit et revenir à l'accueil ?</strong></label><br />
+				<input type="submit" value="Supprimer du panier">
+			</p>
+		</form>
+	</section>
+
+	<footer>
+		<aside>
+			<h3>SUIVEZ-NOUS</h3>
+			<a href="https://www.facebook.com"><img src="img/fb.png" alt="logo de facebook"/></a>
+			<a href="https://www.linkedin.com"><img src="img/din.png" alt="logo de linkedin"/></a>
+			<a href="https://www.instagram.com"><img src="img/insta.png" alt="logo d'instagramm"/></a>
+		</aside>
+		<aside><h3>MENTIONS LEGALES</h3></aside>
+		<aside><h3>FAQ</h3></aside>
+		<aside>
+			<h3>CONTACTEZ-NOUS</h3>
+			<p>00 11 01 01 01</p>
+			<p>Service clients: vinhphuc@univlyon1.fr</p>
+			<p>Partenariat et +: sophie@univlyon1.fr</p>
+		</aside>
+		<small>Copyright 2019 MEDIPLANT Tous droits réservés</small>
+	</footer>
+  </body>
+</html>
